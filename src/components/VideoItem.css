@@ -1,0 +1,12 @@
+.video-item {
+    display: grid !important;
+    grid-template-columns: 130px auto;
+    grid-gap: 10px;
+    cursor: pointer;
+}
+
+.video-thumbnail img {
+    object-fit: contain;
+    width: 100%;
+    height: 75px;
+}
